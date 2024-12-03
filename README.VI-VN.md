@@ -3,7 +3,7 @@
 ## Cách chạy dự án
 
 - Cài đặt [XAMPP](https://www.apachefriends.org/download.html)
-- Tạo thư mục 'as232' trong thư mục `htdocs` của XAMPP. Sao chép dự án vào thư mục vừa tạo
+- Tạo thư mục 'as232' trong thư mục `htdocs` của XAMPP. Sao chép dự án vào thư mục as232 vừa tạo
 - Chạy XAMPP Control Panel. Khơi động module Apache và MySQL
 - Chạy [phpMyAdmin](http://localhost/phpmyadmin) trong trình duyệt. Tạo một database mới với tên `as232` với bảng mã `utf8mb4_unicode_ci`.
 - Đi đén thư mục dự án. Nhập file `as232.sql` vào database.
