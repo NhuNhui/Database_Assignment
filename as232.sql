@@ -256,7 +256,7 @@ CREATE TABLE PROMOTION_PROVIDE (
 	FOREIGN KEY (VenderID, StoreID) REFERENCES Store(VenderID, StoreID)
 );
 
-INSERT INTO USERS VALUES (1,'Qui','Huynh','giaqui@gmail.com', '12345678', '2002-03-14','2020-10-10','2024-10-10', 0, 0);
+INSERT INTO USERS VALUES (1,'Qui','Huynh','giaqui@gmail.com', '12345678', '2002-03-14','2020-10-10','2024-10-10', 1, 2);
 INSERT INTO USERS VALUES (2,'Vuong','Nguyen','vuongnguyen@gmail.com', '12345678', '2003-06-03', '2021-01-23','2024-12-03', 0, 1);
 INSERT INTO USERS VALUES (3,'Vinh','Vo','vinhvo@gmail.com', '12345678','2001-01-23','2002-06-06','2021-01-23', 0, 1);
 INSERT INTO USERS VALUES (4,'Tien','Tran','tientran@gmail.com', '12345678','2000-01-23','2005-05-05','2024-12-03',0, 1);
